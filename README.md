@@ -18,3 +18,6 @@ This is another version of the repeatability tests. Does the same thing as extre
 
 ## sectored_precision and max-sectored-precision
 The last version of the repeatability tests builds upon the previous versions to test multiple parts of the touch screen. sectored_precision is for the t3, while max-sectored-precision is for the t3+.
+
+## t3-speed-test
+This is the code we used to run our speed tests on the t3/3+. It moves the end effector from one end of the robot's movement range, waits 2 seconds, moves to the other end, waits, then repeats that several times.
